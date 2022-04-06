@@ -1,0 +1,94 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+body {
+  background: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  color: #00407d;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+.img-circle {
+  border-radius: 50%;
+  }
+  #introduction p {
+  margin-bottom: 40px;
+}
+#darker {
+  color: black;
+  font-size: 30px;
+  font-weight: darker;
+  font-weight: 800;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i:hover {
+  color: black;
+  }
+  .list-inline i {
+  font-size: 50px;
+  }
+  .fab {
+  font-family: "Font Awesome 5 Brands";
+}
+.fa, .fab, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
